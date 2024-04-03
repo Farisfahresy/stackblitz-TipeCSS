@@ -1,0 +1,61 @@
+p {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+p:nth-of-type(2) {
+  background-color: yellow;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+/*
+CSS Syntax:
+1. Selector: Memilih elemen atau kelompok elemen yang akan diberi gaya.
+2. Property: Menentukan atribut atau karakteristik yang akan diubah.
+3. Value: Nilai yang akan diberikan pada property tertentu.
+4. Declaration Block: Kumpulan properti dan nilai yang diterapkan pada selector tertentu.
+5. Declaration: Setiap baris dalam declaration block yang terdiri dari property dan value yang dipisahkan oleh titik dua.
+6. Rule: Kombinasi dari selector dan declaration block, yang menentukan gaya untuk elemen tertentu.
+*/
+/*
+CSS Specificity:
+CSS Specificity adalah cara CSS menentukan elemen mana yang akan menerima gaya yang diberikan. Specificity dihitung berdasarkan jenis selektor dan jumlahnya dalam aturan CSS.
+
+Contoh:
+- Inline styles memiliki Specificity yang lebih tinggi daripada Stylesheet eksternal atau internal.
+- Selector ID memiliki Specificity yang lebih tinggi daripada Selector class atau tag.
+- Selector dengan jumlah ID yang lebih banyak memiliki Specificity yang lebih tinggi daripada Selector dengan jumlah class atau tag yang lebih banyak.
+
+Responsive Website:
+Responsive Website adalah desain website yang dapat menyesuaikan tampilannya dengan baik pada berbagai perangkat dan ukuran layar, mulai dari desktop hingga ponsel. Hal ini dilakukan dengan menggunakan media queries dan teknik CSS lainnya.
+
+Contoh:
+- Menggunakan media queries untuk mengubah tata letak, ukuran font, dan elemen lainnya berdasarkan lebar layar.
+- Menggunakan unit responsif seperti % atau vw (viewport width) untuk mengatur ukuran elemen agar dapat menyesuaikan lebar layar.
+
+CSS Media Queries:
+CSS Media Queries adalah teknik CSS yang digunakan untuk mengubah tampilan dan tata letak halaman berdasarkan karakteristik perangkat yang digunakan untuk melihat halaman, seperti lebar layar, tinggi layar, orientasi, dan lainnya.
+
+Contoh:
+@media screen and (max-width: 768px) {
+    Styles yang hanya berlaku pada layar dengan lebar maksimum 768px }
+
+  CSS Flexbox dan Grid:
+  CSS Flexbox dan Grid adalah teknik tata letak dalam CSS yang memungkinkan pembuatan tata letak yang responsif dan fleksibel.
+  
+  Perbedaannya:
+  - Flexbox adalah model tata letak satu dimensi yang cocok untuk mengatur elemen dalam satu baris atau satu kolom.
+  - Grid adalah model tata letak dua dimensi yang cocok untuk membuat grid kompleks dengan baris dan kolom yang dapat diatur secara terpisah.
+  
+  Bootstrap:
+  Bootstrap adalah framework front-end yang populer untuk pengembangan website yang responsif dan mudah dibangun. Bootstrap menyediakan berbagai komponen UI, grid system, dan gaya CSS yang dapat digunakan untuk mempercepat proses pengembangan website.
+  
+  Contoh:
+  - Menggunakan kelas-kelas Bootstrap seperti "container", "row", "col" untuk membuat tata letak responsif.
+  - Menggunakan komponen-komponen Bootstrap seperti navbar, card, form untuk membangun antarmuka pengguna yang menarik dan responsif.
+  */
